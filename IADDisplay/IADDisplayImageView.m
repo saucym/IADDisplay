@@ -10,7 +10,7 @@
 
 #define kIADAnimationKey @"IADAnimationKey"
 
-@interface IADDisplayImageView()
+@interface IADDisplayImageView()<CAAnimationDelegate>
 
 @property (nonatomic) NSInteger currentIndex;
 

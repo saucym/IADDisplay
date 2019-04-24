@@ -23,6 +23,7 @@
     
     _dpIV = [[IADDisplayImageView alloc] initWithFrame:CGRectInset(self.view.bounds, 0, 0)];
     _dpIV.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
+    _dpIV.contentMode = UIViewContentModeScaleAspectFill;
     [self.view addSubview:_dpIV];
 }
 
